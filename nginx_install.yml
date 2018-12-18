@@ -1,5 +1,6 @@
 ---
 - name: NGINX Installation
+  become: yes
   hosts: all
   tasks:
     - name: Installs nginx web server
